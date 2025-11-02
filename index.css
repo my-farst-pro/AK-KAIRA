@@ -310,7 +310,7 @@ padding: 0 6%;
   width: 100%;
 display: grid;
 grid-template-columns: 25% 25% 25% 25%;
-  padding: 3% 0;
+  padding: 5% 0;
 
   flex-wrap: wrap;
 
@@ -345,7 +345,7 @@ padding:2% 0%;
   width: 90%;
   height: fit-content;
 
-
+padding: 4% 0;
 
   box-sizing: border-box;
   overflow: hidden;
@@ -354,7 +354,7 @@ padding:2% 0%;
 
   color: #797676;
 
-  border-radius: 10px;
+  border-radius: 12px;
 
 }
 
@@ -375,7 +375,7 @@ display: grid;
 
 
   padding: 0px 6;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 
@@ -401,10 +401,10 @@ i {
 }
 
 #h1-sec3 {
-  color: #000;
+  color: #030303;
   font-weight: normal;
   padding: 1.5% 0%;
-
+font-size: clamp(1.5rem,3vw,3rem);
 }
 .sec3-h1{
 font-size: 16px;
@@ -492,7 +492,7 @@ height: 70%;
 }
 
 .h1-sec4 {
-  font-size: 48px;
+ font-size: clamp(2rem,4vw,3rem);
   font-weight: normal;
   padding-bottom: 7%;
 
@@ -552,7 +552,7 @@ height: 80%;
 #h1-sec5{
 padding: 3% 0%;
 font-weight: normal;
-
+font-size: clamp(1.5rem,4vw,2.5rem);
 }
 .p-h-sec5{
 
@@ -607,7 +607,7 @@ padding-top:17%;
 
 }
 .h1-h-sec8{
-font-size: clamp(1.5rem, 4vh,2rem);
+font-size: clamp(1.5rem, 4vw,2.5rem);
 font-weight: normal;
 
 
@@ -747,7 +747,7 @@ background-color: #e4e4e4;
   width: 100%;
 
 
-  background-image: url(img/pattern-bg.png);
+  background-image: url(/img/pattern-bg.png);
 
   background-size: cover;
 
@@ -797,8 +797,8 @@ margin-bottom: 5%;
 position: relative;
 
   width: 100%;
- 
  display: grid;
+
 grid-template-columns: 20% 20% 20% 20% 20%;
 
 }
@@ -806,9 +806,9 @@ grid-template-columns: 20% 20% 20% 20% 20%;
 .img-sec12 img {
   background: #000;
   width: 100%;
-  height: 80%;
+  height: 97%;
  
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
 }
 #btn-sec13{
 
@@ -894,5 +894,3 @@ padding-bottom: 10px;
 
 
 } */
-
-
