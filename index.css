@@ -747,7 +747,7 @@ background-color: #e4e4e4;
   width: 100%;
 
 
-  background-image: url(/img/pattern-bg.png);
+  background-image: url(img/pattern-bg.png);
 
   background-size: cover;
 
@@ -894,3 +894,4 @@ padding-bottom: 10px;
 
 
 } */
+
