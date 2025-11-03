@@ -162,6 +162,20 @@ display: none;
 
 
 
+#child-sacend-sec1 {
+
+
+  position: absolute;
+  width: 2470px;
+ 
+  height: 100%;
+margin-right: 2%;
+  gap: 1.8%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
 
 /* section 2 */
 
@@ -169,10 +183,11 @@ display: none;
   width: 100%;
 display: grid;
 grid-template-columns:  100%;
-  padding: 7% 0%;
+  padding: 15% 0%;
 justify-content: center;
   padding-left: 2%;
 gap: 7%;
+margin-bottom: 10%;
 
 
 
