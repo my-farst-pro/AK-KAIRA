@@ -999,7 +999,7 @@ document.querySelectorAll(".slider").forEach(slider => {
   track.addEventListener("touchend", e => {
     const diff = e.changedTouches[0].clientX - startX;
     if (diff > 50 && move < 0) move += 12.5;
-    if (diff < -50 && move > -80) move -= 12.5;
+    if (diff < -50 && move > -50) move -= 12.5;
     slide();
   });
 
@@ -1036,4 +1036,5 @@ document.querySelectorAll(".slider").forEach(slider => {
 </body>
 
 </html>
+
 
