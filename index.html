@@ -7,10 +7,12 @@
   <title>ecomer websaite</title>
   <!-- link castm css -->
   <link rel="stylesheet" href="index.css">
-
-
+  <!-- link js -->
+  <link rel="stylesheet" href="src">
   <!-- link medua-query -->
   <link rel="stylesheet" href="indexmedeua.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- link bostrap -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
@@ -130,6 +132,18 @@
           </div>
 
 
+       <!-- img2 -->
+          <div class="man-img-s1">
+            <div class="img-s1">
+              <img src="img/banner-image-2.jpg" alt="">
+              <div class="rit-img-s1">
+                <h3 class="sec1-h3">URBAN THREADS </h3>
+                <p class="sec1-p-rit">Lorem ipsum dolor sit amet, consectetur adipisicing consectetur  elit..</p>
+                  <h5 class="sec1-h5">DISCOVER NOW</h5>
+              </div>
+            </div>
+          </div>
+
 
           <!-- img4 -->
           <div class="man-img-s1">
@@ -144,7 +158,6 @@
           </div>
 
 
-     
 
 
           <!-- img6 -->
@@ -158,6 +171,17 @@
             </div>
           </div>
 
+
+               <!-- img6 -->
+          <div class="man-img-s1">
+            <div class="img-s1">
+              <img src="img/banner-image-4.jpg" alt="">
+              <div class="rit-img-s1">
+                <h5>VOGUEWEAR</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing consectetur elit..</p>
+                  <h5 class="sec1-h5">DISCOVER NOW</h5></div>
+            </div>
+          </div>
 
           <!-- img7 -->
           <div class="man-img-s1">
@@ -193,19 +217,19 @@
           <p class="child1-p-sec2"> asche lule your vivit and enjoy apersonalzed shopping export</p>
         </div>
 
-        <div class="ch-1-sec2"><i class="fa-regular fa-calendar"></i>
+        <div class="ch-1-sec2"><i class="fa-solid fa-bag-shopping"></i>
 
           <h2 class="h2">PICK UP IN SOTRE</h2>
           <p class="child1-p-sec2">order online and converiently collect your items in-store</p>
         </div>
 
-        <div class="ch-1-sec2"><i class="fa-regular fa-calendar"></i>
+        <div class="ch-1-sec2"><i class="fa-solid fa-gift"></i>
           <h2 class="h2">SPECAIL PACKGING</h2>
           <p class="child1-p-sec2">every order wrapped with care in premium gift-readr packaging</p>
         </div>
 
 
-        <div class="ch-1-sec2"><i class="fa-regular fa-calendar"></i>
+        <div class="ch-1-sec2"><i class="fa-solid fa-arrows-rotate"></i>
 
           <h2 class="h2">FREE GLOBAL RETREN</h2>
           <p class="child1-p-sec2">shop with confidnt, free and easy rettrns worldwide</p>
@@ -318,9 +342,19 @@
           </div>
 
 
+ <div class="ime-sec3"><img src="img/product-item-3.jpg" alt="">
+            <div class="img-rit-sec2">
+              <h1 class="sec3-h1">COTTON OFF WHITE SHIRT</h1>
+              <strong>$65.00</strong>
+            </div>
+          </div>
 
-
-
+ <div class="ime-sec3"><img src="img/product-item-3.jpg" alt="">
+            <div class="img-rit-sec2">
+              <h1 class="sec3-h1">COTTON OFF WHITE SHIRT</h1>
+              <strong>$65.00</strong>
+            </div>
+          </div>
 
 
         </div>
@@ -448,6 +482,12 @@
             </div>
           </div>
 
+<div class="ime-sec5"><img src="img/product-item-7.jpg" alt="">
+            <div class="img-rit-sec2">
+              <h3>COTTON OFF WHITE SHIRT</h3>
+              <strong>$65.00</strong>
+            </div>
+          </div>
         </div>
            <button class="prev-btn" id="leftBtn ">&larr; </button>
         <button class="next-btn" id="rightBtn">&rarr; </button>
@@ -761,15 +801,15 @@
           <P id="p-box1-sec13">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, repellat iste praesentium corporis atqueLorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, repellat iste praesentium corporis atque
             excepturi </P>
 
-          <div style="display: flex ; gap: 20%;  ">
-            <div><i class="fa-brands fa-facebook-f"></i>
+          <div style="display: flex ; gap: 17%; padding: 4% 0; ">
+            <div class="icon-sec13"><i class=" icon-sec13 fa-brands fa-facebook"></i>
             </div>
 
-            <div><i class="fa-brands fa-facebook-f"></i>
+            <div><i class=" icon-sec13 fa-brands fa-youtube"></i>
             </div>
-            <div><i class="fa-brands fa-facebook-f"></i>
+            <div><i class=" icon-sec13 fa-brands fa-instagram"></i>
             </div>
-            <div><i class="fa-brands fa-facebook-f"></i>
+            <div><i class=" icon-sec13 fa-brands fa-tiktok"></i>
             </div>
           </div>
 
@@ -906,6 +946,10 @@
     menuIcon.onclick = () => {
       navLinks.classList.toggle('open');
     };
+
+
+
+    
     // slider
 document.querySelectorAll(".slider").forEach(slider => {
   const track = slider.querySelector(".track");
@@ -917,15 +961,15 @@ document.querySelectorAll(".slider").forEach(slider => {
 
   function slide() {
     track.style.transform = `translateX(${move}%)`;
-  }
+  };
 
   // Button control
   next.onclick = () => {
-    if (move > -50) move -= 4;
+    if (move > -60.5) move -= 10;
     slide();
   };
   prev.onclick = () => {
-    if (move < 0) move += 10;
+    if (move < 0) move +=10;
     slide();
   };
 
@@ -943,7 +987,7 @@ document.querySelectorAll(".slider").forEach(slider => {
     isDragging = false;
     const diff = e.clientX - startX;
     if (diff > 50 && move < 0) move += 20;
-    if (diff < -50 && move > -80) move -= 20;
+    if (diff < -50 && move > -50) move -= 20;
     slide();
   });
   track.addEventListener("mouseleave", () => (isDragging = false));
@@ -954,8 +998,8 @@ document.querySelectorAll(".slider").forEach(slider => {
   });
   track.addEventListener("touchend", e => {
     const diff = e.changedTouches[0].clientX - startX;
-    if (diff > 50 && move < 0) move += 15;
-    if (diff < -50 && move > -80) move -= 15;
+    if (diff > 50 && move < 0) move += 12.5;
+    if (diff < -50 && move > -80) move -= 12.5;
     slide();
   });
 
@@ -991,6 +1035,4 @@ document.querySelectorAll(".slider").forEach(slider => {
 
 </body>
 
-
 </html>
-
