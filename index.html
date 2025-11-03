@@ -986,8 +986,8 @@ document.querySelectorAll(".slider").forEach(slider => {
     if (!isDragging) return;
     isDragging = false;
     const diff = e.clientX - startX;
-    if (diff > 50 && move < 0) move += 20;
-    if (diff < -50 && move > -50) move -= 20;
+    if (diff > 50 && move < 0) move += 10;
+    if (diff < -50 && move > -50) move -= 10;
     slide();
   });
   track.addEventListener("mouseleave", () => (isDragging = false));
@@ -1036,3 +1036,4 @@ document.querySelectorAll(".slider").forEach(slider => {
 </body>
 
 </html>
+
