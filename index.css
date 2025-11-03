@@ -10,7 +10,7 @@
 html, body {
   overflow-x: hidden;  /* sirf x-axis scroll hide */
 }
-body,head{
+body,head{A
 overflow-x: hidden;
 overflow-y: hidden;
 
@@ -802,7 +802,7 @@ margin-bottom: 5%;
 position: relative;
 
   width: 100%;
- 
+ background-color: #fff;
 display: grid;
 grid-template-columns: 20% 20% 20% 20% 20%;
 
@@ -904,5 +904,6 @@ padding-bottom: 10px;
 
 
 } */
+
 
 
